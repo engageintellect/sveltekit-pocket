@@ -81,7 +81,7 @@
 
 		<Input id="name" label="Name" value={data?.user?.name} disabled={loading} />
 		<div class="w-full max-w-lg pt-3">
-			<button class="btn btn-parimary w-full max-w-lg" type="submit" disabled={loading}>
+			<button class="btn btn-primary w-full max-w-lg" type="submit" disabled={loading}>
 				Update Profile
 			</button>
 		</div>

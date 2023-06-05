@@ -9,6 +9,7 @@ export const actions = {
 
 		try {
 			await locals.pb.collection('users').create({ username, ...body });
+			// TODO: Turn this on when we have email verification
 			// await locals.pb.collection('users').requestVerification(body.email);
 		} catch (err) {
 			console.log('Error: ', err);
