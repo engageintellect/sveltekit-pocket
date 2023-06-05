@@ -15,6 +15,7 @@ specifiers:
   prettier: ^2.8.0
   prettier-plugin-svelte: ^2.8.1
   svelte: ^3.54.0
+  svelte-hero-icons: ^5.0.0
   svelte-preprocess: ^5.0.3
   tailwindcss: ^3.3.1
   vite: ^4.3.0
@@ -36,6 +37,7 @@ devDependencies:
   prettier: 2.8.8
   prettier-plugin-svelte: 2.10.1_blbg2s7pis747igzn3ilcyh5ou
   svelte: 3.59.1
+  svelte-hero-icons: 5.0.0
   svelte-preprocess: 5.0.4_sxhny56dlbcmwov4vk7qwrzshi
   tailwindcss: 3.3.2
   vite: 4.3.9
@@ -370,6 +372,10 @@ packages:
 
   /@polka/url/1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
+    dev: true
+
+  /@steeze-ui/heroicons/2.2.2:
+    resolution: {integrity: sha512-VUkgSAbjLzsEuF4kDQDESANb/NNxqhkOMnrzD1VhB3tSGr7wVZ5FKS7aM2QZcKXjziwR6dbt7Nhs3fpZhqOi1A==}
     dev: true
 
   /@sveltejs/adapter-auto/2.1.0_@sveltejs+kit@1.20.1:
@@ -1691,6 +1697,13 @@ packages:
       eslint-visitor-keys: 3.4.1
       espree: 9.5.2
       svelte: 3.59.1
+    dev: true
+
+  /svelte-hero-icons/5.0.0:
+    resolution: {integrity: sha512-xKMI/Z0f/6831I0R1YKJjVbAw9VBD6XKysvng6LtomlS4n3ZD1lZNAfLrrCmnc1pmiLr/8sVeQA8kgHLQwYlRg==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      '@steeze-ui/heroicons': 2.2.2
     dev: true
 
   /svelte-hmr/0.15.2_svelte@3.59.1:
