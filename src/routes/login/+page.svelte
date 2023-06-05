@@ -28,13 +28,22 @@
 			<input type="password" name="password" class="input input-bordered w-full max-w-md" />
 		</div>
 
+		<div class="w-full max-w-md">
+			<a
+				href="/reset-password"
+				class="font-medium text-primary hover:cursor-pointer hover-underline"
+			>
+				Forgot your password?
+			</a>
+		</div>
+
 		<div class="w-full max-w-md pt-2">
 			<button type="submit" class="btn btn-primary w-full">Login</button>
 		</div>
 
 		<!-- TODO: GET THIS WORKING -->
 		<!-- {#if form?.notVerified}
-			<div class="w-full max-w-md alert alert-error">
+			<div class="w-full max-w-md shadow-lg alert alert-error">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="stroke-current shrink-0 h-6 w-6"
